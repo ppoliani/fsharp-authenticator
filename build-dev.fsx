@@ -1,6 +1,6 @@
 // --------------------------------------------------------------------------------------
 // A simple FAKE build script that:
-//  1) Hosts Suave server locally & reloads web part that is defined in 'app.fsx'
+//  1) Hosts Suave server locally & reloads web part that is defined in 'app.fsxx'
 //  2) Deploys the web application to Azure web sites when called with 'build deploy'
 // --------------------------------------------------------------------------------------
 
