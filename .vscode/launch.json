@@ -5,7 +5,7 @@
             "name": "Launch",
             "type": "mono",
             "request": "launch",
-            "program": "${workspaceRoot}/build/RestApi.exe",
+            "program": "${workspaceRoot}/build/fsharp-authenticator.exe",
             "args": [],
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Build",

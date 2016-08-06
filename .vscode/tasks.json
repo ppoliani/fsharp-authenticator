@@ -2,7 +2,7 @@
     "version": "0.1.0",
     "showOutput": "always",
     "command": "sh",
-    "args": ["build.sh", "build"],
+    "args": ["build.sh", "run"],
     "tasks": [
         {
             "taskName": "Build",

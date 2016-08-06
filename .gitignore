@@ -2,5 +2,6 @@ packages/
 obj/
 build/
 paket-files/
+bin/
 .paket/
 .fake/
