@@ -1,5 +1,10 @@
 // include Fake libs
-#r "./packages/FAKE/tools/FakeLib.dll"
+
+#r "packages/FAKE/tools/FakeLib.dll"
+open Fake
+
+open System
+open System.IO
 
 open Fake
 
@@ -32,6 +37,7 @@ Target "Deploy" (fun _ ->
     -- "*.zip"
     |> Zip buildDir (deployDir + "ApplicationName." + version + ".zip")
 )
+
 
 // Build order
 "Clean"
