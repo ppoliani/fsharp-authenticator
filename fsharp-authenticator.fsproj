@@ -38,6 +38,9 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="data/claim.fs" />
+    <Compile Include="data/localCredentialsInfo.fs" />
+    <Compile Include="data/user.fs" />
     <Compile Include="api/router.fs" />
     <Compile Include="api/helpers.fs" />
     <Compile Include="app.fsx" />
