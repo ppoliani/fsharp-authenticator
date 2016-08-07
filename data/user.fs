@@ -21,3 +21,6 @@ module User =
             Local=getLocalCredentialsInfo password email
             Claims=[defaultClaim]
         }
+
+    let verifyPassword (user:T) password = 
+        verify user.Local.HashedPassword password
