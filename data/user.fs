@@ -1,5 +1,7 @@
 namespace Authenticator.Data
 
+open Authenticator.Auth
+
 module User = 
     type T = {
         Username: string
@@ -10,7 +12,8 @@ module User =
     let defaultClaim = Claim.create "role" "admin"
 
     let getLocalCredentialsInfo password email =
-        LocalCredentialsInfo.create email "hashedPassword" "salt"
+        let hashedPassword = strongHash password 
+        LocalCredentialsInfo.create email hashedPassword
 
     let create username password email = 
         {

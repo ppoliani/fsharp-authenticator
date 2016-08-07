@@ -6,16 +6,14 @@ module LocalCredentialsInfo =
     type T = {
         Email: string
         HashedPassword: string
-        Salt: string
         CreatedAt: string
         UpdatedAt: string
     }
 
-    let create email hashedPassword salt = 
+    let create email hashedPassword = 
         {  
             Email=email
             HashedPassword=hashedPassword
-            Salt=salt
             CreatedAt=DateTime.Now.ToString()
             UpdatedAt=DateTime.Now.ToString()
         }
