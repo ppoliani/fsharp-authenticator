@@ -1,0 +1,9 @@
+source https://www.nuget.org/api/v2
+nuget FAKE
+nuget FSharp.Compiler.Service
+nuget FSharp.Core
+nuget FsUnit
+nuget mongocsharpdriver
+nuget MongoDB.FSharp
+nuget Newtonsoft.json
+nuget Suave

@@ -1,0 +1,6 @@
+FSharp.Core
+xunit
+FsCheck.Xunit
+FsCheck
+Unquote
+xunit.runner.console

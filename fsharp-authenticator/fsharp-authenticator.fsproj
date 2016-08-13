@@ -45,7 +45,7 @@
     <Compile Include="api/auth.fs" />
     <Compile Include="api/router.fs" />
     <Compile Include="api/helpers.fs" />
-    <Compile Include="app.fsx" /
+    <Compile Include="app.fsx" /> 
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Choose>

@@ -1,7 +1,7 @@
-packages/
-obj/
-build/
-paket-files/
-bin/
-.paket/
-.fake/
+**/packages/
+**/obj/
+**/build/
+**/paket-files/
+**/bin/
+**/.paket/
+**/.fake/
