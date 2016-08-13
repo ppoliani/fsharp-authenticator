@@ -1,6 +1,7 @@
 source https://www.nuget.org/api/v2
 nuget FsCheck
 nuget FsCheck.Xunit
+nuget suave.testing
 nuget Unquote
 nuget xunit
 nuget xunit.runner.console

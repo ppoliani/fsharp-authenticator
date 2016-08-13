@@ -1,6 +1,9 @@
 namespace Authenticator.Api
 
+open Authenticator.Utils
+
 module authEndpoints = 
-    let signup request = None
+    let signup () = 
+        Success "ok"
 
 

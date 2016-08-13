@@ -4,3 +4,5 @@ FsCheck.Xunit
 FsCheck
 Unquote
 xunit.runner.console
+suave.testing
+fsharp-authentication

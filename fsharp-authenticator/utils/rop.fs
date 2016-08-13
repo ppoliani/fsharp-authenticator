@@ -1,5 +1,6 @@
 namespace Authenticator.Utils
 
+[<AutoOpen>]
 module Rop = 
     // The two-track type
     type Result<'TSuccess, 'TFailure> =
