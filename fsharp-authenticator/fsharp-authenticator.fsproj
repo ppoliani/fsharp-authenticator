@@ -40,6 +40,7 @@
   <ItemGroup>
     <Compile Include="utils/rop.fs" />
     <Compile Include="auth/Pbkdf2.fs" />
+    <Compile Include="data/signup.fs" />
     <Compile Include="data/claim.fs" />
     <Compile Include="data/localCredentialsInfo.fs" />
     <Compile Include="data/user.fs" />

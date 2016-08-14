@@ -13,6 +13,9 @@ module Rop =
         | Success s -> f s
         | Failure f -> Failure f
 
+    let (>>=) x f = 
+        bind f x 
+
     // Convert a one-track function into a two-track function
     let map f x =
         match x with
