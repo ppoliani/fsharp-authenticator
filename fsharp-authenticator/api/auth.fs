@@ -11,8 +11,8 @@ module authEndpoints =
 
     let private verifyUserUniqueness findUser (signup:Signup.T) = 
         match findUser signup.Username signup.Email with
-                | Failure f -> Failure f
-                | Success _ -> Success signup
+        | Failure f -> Failure f
+        | Success _ -> Success signup
 
     let signup (signup:Signup.T) findUser = 
         signup 
