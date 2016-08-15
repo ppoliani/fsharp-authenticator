@@ -1,5 +1,6 @@
 namespace Authenticator.Data
 
+[<AutoOpen>]
 module Signup = 
     type T = {
         Username: string

@@ -14,11 +14,10 @@ module authEndpoints =
         | Failure f -> Failure f
         | Success _ -> Success signup
 
-    let signup (signup:Signup.T) findUser = 
+    let signup (signup:Signup.T) findUser createNewUser = 
         signup 
         |> verifyConfirmationPassword
         >>= verifyUserUniqueness findUser
-        >>= (fun signup -> 
-            Success "User created")
+        >>= createNewUser
             
 
